@@ -17,5 +17,4 @@ phases:
         - mvn package
 artifacts:
   files:
-    - my-app-1.0-SNAPSHOT.jar
-    - appspec.yml
+    - '**/*'
