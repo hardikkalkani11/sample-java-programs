@@ -16,5 +16,5 @@ phases:
         - echo Build completed on `date`
         - mvn package
 artifacts:
-  files:
-    - samplejavademo.zip
+    files:
+        - '**/*'
